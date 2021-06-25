@@ -1,0 +1,32 @@
+body {
+    color : #333;
+    font-family: sans-serif;
+}
+.formulario-de-notas {
+    margin:50px 10%;
+    text-align:center;
+    background-color: #48e;
+    padding: 20px;
+    box-sizing:border-box;
+    display:flex;
+}
+
+.title{
+    margin:0;
+    flex-grow:1;
+    color:#fff;
+    font-size:20px;
+}
+input{
+    width:30px;
+    border:none;
+    height: auto;
+}
+.snd-submit{
+    width: 100px;
+   letter-spacing: 1px;
+    margin-left:6px;
+    background-color:#fff;
+    color:#48e;
+    font-size:10px;
+}
