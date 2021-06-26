@@ -16,6 +16,7 @@ body {
     flex-grow:1;
     color:#fff;
     font-size:20px;
+    margin-right: 20px;
 }
 input{
     width:30px;
@@ -29,4 +30,49 @@ input{
     background-color:#fff;
     color:#48e;
     font-size:10px;
+}
+.red{
+    color:red;
+}
+.green{
+    color:green;
+}
+/* modal */
+.modal-background{
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    display:none;
+    transition: 2s;
+    
+}
+ .animations{
+     display:flex;
+    animation: aparecer 1s forwards;
+} 
+ @keyframes aparecer {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+} 
+.modal{
+    background-color: #fff;
+    width: 500px;
+    margin: auto;
+    text-align: center;
+    border-radius: 10px;
+}
+.cerrar{
+    text-align: center;
+    color:#fff;
+    display:flex;
+    cursor: pointer;
+    transition: 2s;
 }

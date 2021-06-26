@@ -8,10 +8,19 @@
     <title>trycatch</title>
 </head>
 <body>
+    <!-- ventana modal -->
+    <div class="modal-background">
+        <p class="cerrar">Close [x]</p>
+        <div class="modal">
+            <h3 class="resultado"></h3>
+            <p class="mensaje"></p>
+        </div>
+    </div>
+    
     <form class="formulario-de-notas">
         <h2 class="title">Introduce la nota del alumno</h2>
-        <input type="number" id="nota-alumno">
-        <input class="snd-submit"type="button" id="enviar-nota" value="OBTENER NOTA">
+        <input type="number" id="note">
+        <input class="snd-submit"type="button" id="snd-note" value="GET NOTE">
     </form>
     <script src="script.js"></script>
 </body>
